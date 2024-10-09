@@ -17,8 +17,7 @@ EPMS is a management system developed for a startup poultry farm business called
 5. PHP
 6. MySQL
 
-## YouTube Demo
-Watch the demo on [YouTube](https://www.youtube.com/watch?v=ZljZxN1Op9I&t=78s)
+
 
 
 
@@ -33,7 +32,7 @@ Watch the demo on [YouTube](https://www.youtube.com/watch?v=ZljZxN1Op9I&t=78s)
 ## Running EPMS Locally
 The following steps go through how you can run EPMS management system in your local environment. Assuming you have some kind of local server like XAMPP installed on your machine, just follow the steps below.
 1. cd into htdocs (For Mac users you can run the following command from anywhere in your terminal: cd ~/.bitnami/stackman/machines/xampp/volumes/root/htdocs)
-2. Once in htdocs folder, clone this repository and git it a name of your choice. For instance the following command would create a folder called **epmsproject** inside htdocs folder with the project files: git clone https://github.com/alain-kubwayo/epms.git epmsproject
+2. Once in htdocs folder, clone this repository and git it a name of your choice. For instance the following command would create a folder called **epmsproject** inside htdocs folder with the project files: git clone https://github.com/ChuckyCharles/epms_cloud.git epmsproject
 3. With that out of the way, cd into epmsproject folder and navigate to sql folder to get the sql file to be imported in PHPMyAdmin 
 4. Then navigate to includes sub-directory in **epmsproject** directory and open **database.php** file and change the database credenials according to your database. 
 5. Finally, you can run the project in your browser by writing localhost:8080/epms or any port you have. This would take you to the homepage of the EPMS application.
